@@ -11,3 +11,9 @@ opt.expandtab = true
 opt.ignorecase = true
 opt.smartcase = true
 opt.incsearch = true
+
+vim.cmd([[
+  filetype on
+  filetype plugin on
+  filetype indent on
+]])

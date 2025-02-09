@@ -15,7 +15,9 @@ return {
                                 ensure_installed = { "kotlin_language_server", "ts_ls" }
                         }
 
-                        require("lspconfig").ts_ls.setup {}
+                        -- require("lspconfig").ts_ls.setup {}
+                        require("lspconfig").kotlin_language_server.setup {}
+                        require("lspconfig").pyright.setup {}
                 end
         }
 }
