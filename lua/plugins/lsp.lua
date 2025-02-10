@@ -12,7 +12,7 @@ return {
 
                         -- then this one
                         require("mason-lspconfig").setup {
-                                ensure_installed = { "kotlin_language_server", "ts_ls" }
+                                ensure_installed = { "kotlin_language_server", "pyright" }
                         }
 
                         -- require("lspconfig").ts_ls.setup {}
