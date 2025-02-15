@@ -12,12 +12,11 @@ return {
 
                         -- then this one
                         require("mason-lspconfig").setup {
-                                ensure_installed = { "pyright" }
+                                ensure_installed = { "pyright", "rust-analyzer" }
                         }
 
-                        -- require("lspconfig").ts_ls.setup {}
-                        -- require("lspconfig").kotlin_language_server.setup {}
                         require("lspconfig").pyright.setup {}
+                        require("lspconfig").rust_analyzer.setup {}
                 end
         }
 }
