@@ -15,8 +15,6 @@ return {
                                 ensure_installed = { "pyright", "rust_analyzer" }
                         }
 
-                        -- require("lspconfig").ts_ls.setup {}
-                        -- require("lspconfig").kotlin_language_server.setup {}
                         require("lspconfig").pyright.setup {}
                         require("lspconfig").rust_analyzer.setup {}
 
